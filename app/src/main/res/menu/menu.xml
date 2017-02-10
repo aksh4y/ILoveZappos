@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item android:id="@+id/cart"
+        android:icon="@mipmap/ic_shopping_cart"
+        android:title="@string/app_name"
+        android:actionViewClass="android.widget.ImageView"
+        app:showAsAction="always"/>-->
+    <item
+        android:title="ILoveZappos"
+        android:id="@+id/cart"
+        android:icon="@mipmap/ic_shopping_cart"
+        android:actionLayout="@layout/cart_layout"
+        app:showAsAction="always">
+    </item>
+</menu>

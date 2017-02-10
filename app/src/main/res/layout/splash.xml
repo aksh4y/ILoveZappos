@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_black"
+    android:gravity="center">
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/splash_text"
+        android:text="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="50sp"
+        android:gravity="center_vertical|center_horizontal" />
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/splash_name"
+        android:text="@string/author_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal" />
+
+</LinearLayout>

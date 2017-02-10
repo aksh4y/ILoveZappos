@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ILoveZappos</string>
+    <string name="author_name">Akshay Sadarangani</string>
+    <string name="search_hint">Search for</string>
+    <string name="btn_search">Search</string>
+    <string name="err_msg_search">Enter search term</string>
+    <string name="purchased">Added to Cart</string>
+</resources>
