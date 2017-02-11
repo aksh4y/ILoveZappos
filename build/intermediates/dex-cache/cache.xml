@@ -20,13 +20,13 @@
         <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.romainpiel.shimmer-library-1.4.0_c0b58a1062290e7e102db04134e5f4d112430604.jar" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_2d8fe2003ed7de247e23e0b6cde0239f295d4ffa.jar" />
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.1_2d8fe2003ed7de247e23e0b6cde0239f295d4ffa\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -39,12 +39,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.databinding-library-1.2.1_6f279e7a6daabbac892b28323b59a02e997ee520.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
         sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_1f71267c954c467001b6d2369c631c3bf46c132f.jar" />
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.1_1f71267c954c467001b6d2369c631c3bf46c132f\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -66,12 +75,39 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jar="G:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.2.3\baseLibrary-2.2.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\baseLibrary-2.2.3_91e175f1eae5298a416024cba3f8a2621aed8a1f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eef9c83f03bbf943ba7ffaf8ef47d3485108e7a3">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_dbee773841eb16bb91d5b4e940cf0cfb2482e9bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
         sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_0fbeff28559003be1096b178d72ccb96f948b061.jar" />
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.1_0fbeff28559003be1096b178d72ccb96f948b061\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.1_cf3cd422008a95d5049ebcaa9fca5d8458516f0c\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -92,22 +128,31 @@
         <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.1.1_370ebec240654b2a48c70d2a164838acc24d0596.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
-        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.2_4ba9c84031ae3322c25f776d3fd8efc786f7889b.jar" />
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.1_cc224d1481706a05d4637ff53e7dab1c3ce36d47\classes.dex" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_cf3cd422008a95d5049ebcaa9fca5d8458516f0c.jar" />
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.databinding-adapters-1.2.1_363958283d3ea752480017e56cfad0f73e3f7362.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.1_805270b939fbe1fd653d4f3e85d18b3fd37dc2a3\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -128,6 +173,24 @@
         <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\okio-1.6.0_b54a40a7a8311f06be81664d7e67085338edd73f.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-library-1.2.1_6f279e7a6daabbac892b28323b59a02e997ee520\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.2_4ba9c84031ae3322c25f776d3fd8efc786f7889b\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
         jumboMode="false"
@@ -137,22 +200,13 @@
         <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.1.1_5407e049f8ebdde69aef422328dcced9246a9a5e.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\glide-3.7.0_b711801a016cda9ff731a777617c4c22cf4c9e88.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.1_cc224d1481706a05d4637ff53e7dab1c3ce36d47.jar" />
+        sha1="e0ec0a4857ba8c5839e2eb55ac8e18b73e8ea26e">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_cc5dcb0fedc4f6eae7167b961f5a30fee01d97bf\classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -189,6 +243,213 @@
         revision="25.0.2"
         sha1="f1bc476cc167b18e66c297df599b2377131a8947">
         <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\gson-2.6.2_a5ad85f97a6b3896369ba111af2dbe51fe168826.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.1_c4fca027ff2329c61e114608e72606553ae080db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.romainpiel.shimmer\library\1.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="605019d3e4be636f5dd74c83d05198994e3a2ce9">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.romainpiel.shimmer-library-1.4.0_c0b58a1062290e7e102db04134e5f4d112430604\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.1.1_2d8fe2003ed7de247e23e0b6cde0239f295d4ffa.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_31d8d7e7441f6bd2c7f575e093df55c96e66900f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_b711801a016cda9ff731a777617c4c22cf4c9e88\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.1.1_1f71267c954c467001b6d2369c631c3bf46c132f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\Program Files\Android\Android Studio\gradle\m2repository\com\android\databinding\baseLibrary\2.2.3\baseLibrary-2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4b51d1925cdfda98fd861230c1ecb5855500129">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.2.3_91e175f1eae5298a416024cba3f8a2621aed8a1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.1.1_0fbeff28559003be1096b178d72ccb96f948b061.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.1_d6227067cbed1b67f5698807fafafb71638d2dfa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_a5ad85f97a6b3896369ba111af2dbe51fe168826\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.2\f8d87f15b94b8d74e7ccf61d7eedb558811cdb30\converter-gson-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.2_4ba9c84031ae3322c25f776d3fd8efc786f7889b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.1.1_cf3cd422008a95d5049ebcaa9fca5d8458516f0c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.1.1_370ebec240654b2a48c70d2a164838acc24d0596\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-adapters-1.2.1_363958283d3ea752480017e56cfad0f73e3f7362\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_b54a40a7a8311f06be81664d7e67085338edd73f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.1_5e2894a92e43c469327d0776134a0d369ac0cd18\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\design\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.1_513d5e0b2afe30d212ba669ddcc899176daca3de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="G:\Users\Akshay\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.1_101f8e8ed331962f14a7fb3f772c70e47143f89d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\glide-3.7.0_b711801a016cda9ff731a777617c4c22cf4c9e88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.1.1_cc224d1481706a05d4637ff53e7dab1c3ce36d47.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_6b9826785398b7a50d52e278351fb72acbd321ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.1_5407e049f8ebdde69aef422328dcced9246a9a5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\Akshay\Desktop\4kshay\ILoveZappos\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.1_86bc56f9db4cd770fe276a2b4270a290f5acea81\classes.dex" />
     </item>
 
 </items>

@@ -1,6 +1,12 @@
 package info.akshaysadarangani.ILoveZappos.model;
 
+import android.databinding.BindingAdapter;
+import android.widget.ImageView;
+
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.gson.annotations.SerializedName;
+
 
 public class Product {
     @SerializedName("thumbnailImageUrl")
@@ -55,5 +61,16 @@ public class Product {
 
     public void setProductURL(String productURL) {
         this.productURL = productURL;
+    }
+
+    @BindingAdapter({"imageUrl"})
+    public static void loadImage(ImageView view, String imageUrl) {
+        // Using Glide library for product thumbnails
+        Glide
+                .with(view.getContext())
+                .load(imageUrl)
+                .fitCenter()
+                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .into(view);
     }
 }
