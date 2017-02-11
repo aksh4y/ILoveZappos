@@ -2,9 +2,9 @@ package info.akshaysadarangani.ILoveZappos.activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private TextView item_count;
     private FloatingActionButton expand, buy, share;
     private Animation fab_open, fab_close, rotate_forward, rotate_backward,
-            wiggle, slideUp, slideDown, scale, slide;
+            wiggle, slideUp, slideDown;
     private Boolean isFabOpen = false;
     private Boolean disableFab = false;
     private Boolean addedToCart = false;
@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private LinearLayout container;
     private ShimmerTextView purchase;
     private Shimmer shimmer;
-    Resources resources;
 
     ProgressDialog mProgressDialog;
     List<Product> products;
@@ -78,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         share = (FloatingActionButton) findViewById(R.id.btn_share);
         buy = (FloatingActionButton) findViewById(R.id.btn_buy);
         purchase = (ShimmerTextView) findViewById(R.id.purchase);
+        item_count = (TextView) findViewById(R.id.item_count);
         fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_open);
         fab_close = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close);
         rotate_forward = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_forward);
@@ -86,7 +86,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         expand.setOnClickListener(this);
         buy.setOnClickListener(this);
         share.setOnClickListener(this);
-        resources = getResources();
 
         // Progress bar
 
@@ -111,7 +110,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onResponse(Call<SearchResponse> call, Response<SearchResponse> response) {
                 int statusCode = response.code();
                 products = response.body().getResults();
-                recyclerView.setAdapter(new ProductAdapter(products, R.layout.product_layout, getApplicationContext()));
+                //recyclerView.setAdapter(new ProductAdapter(products, R.layout.product_layout, getApplicationContext()));
+                recyclerView.setAdapter(new ProductAdapter(products));
                 if (mProgressDialog.isShowing())
                     mProgressDialog.dismiss();
                 if (products.size() == 0) {
@@ -223,7 +223,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     container.startAnimation(slideDown);
                     item_count.setText("");
                     animateFAB();
-                    //buy.setImageDrawable(resources.getDrawable(R.mipmap.ic_add_shopping_cart));
                     Toast.makeText(getApplicationContext(), "Removed from cart!", Toast.LENGTH_SHORT).show();
                 }
 
@@ -251,7 +250,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void animateFAB(){
 
         if(isFabOpen){
-
             expand.startAnimation(rotate_backward);
             share.startAnimation(fab_close);
             if(!hideBuy)
@@ -260,23 +258,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             buy.setClickable(false);
             isFabOpen = false;
             //Log.d("FAB", "close"); //for debug
-
         } else {
 
             expand.startAnimation(rotate_forward);
             share.startAnimation(fab_open);
             if(!addedToCart)
-                buy.setImageDrawable(resources.getDrawable(R.mipmap.ic_add_shopping_cart));
+                buy.setImageDrawable(ContextCompat.getDrawable(this, R.mipmap.ic_add_shopping_cart));
             else
-                buy.setImageDrawable(resources.getDrawable(R.mipmap.ic_remove_shopping_cart));
+                buy.setImageDrawable(ContextCompat.getDrawable(this, R.mipmap.ic_remove_shopping_cart));
             hideBuy = false;
             buy.startAnimation(fab_open);
             share.setClickable(true);
             buy.setClickable(true);
             isFabOpen = true;
             // Log.d("FAB","open"); //for debug
-
         }
     }
-
 }
